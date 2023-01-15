@@ -1,0 +1,301 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "log4net/2.0.15": {
+        "dependencies": {
+          "System.Configuration.ConfigurationManager": "4.5.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/log4net.dll": {
+            "assemblyVersion": "2.0.15.0",
+            "fileVersion": "2.0.15.0"
+          }
+        }
+      },
+      "Microsoft.NETCore.Platforms/2.0.0": {},
+      "NModbus/3.0.72": {
+        "runtime": {
+          "lib/net6.0/NModbus.dll": {
+            "assemblyVersion": "3.0.72.0",
+            "fileVersion": "3.0.72.0"
+          }
+        }
+      },
+      "runtime.linux-arm.runtime.native.System.IO.Ports/7.0.0": {
+        "runtimeTargets": {
+          "runtimes/linux-arm/native/libSystem.IO.Ports.Native.so": {
+            "rid": "linux-arm",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "runtime.linux-arm64.runtime.native.System.IO.Ports/7.0.0": {
+        "runtimeTargets": {
+          "runtimes/linux-arm64/native/libSystem.IO.Ports.Native.so": {
+            "rid": "linux-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "runtime.linux-x64.runtime.native.System.IO.Ports/7.0.0": {
+        "runtimeTargets": {
+          "runtimes/linux-x64/native/libSystem.IO.Ports.Native.so": {
+            "rid": "linux-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "runtime.native.System.IO.Ports/7.0.0": {
+        "dependencies": {
+          "runtime.linux-arm.runtime.native.System.IO.Ports": "7.0.0",
+          "runtime.linux-arm64.runtime.native.System.IO.Ports": "7.0.0",
+          "runtime.linux-x64.runtime.native.System.IO.Ports": "7.0.0",
+          "runtime.osx-arm64.runtime.native.System.IO.Ports": "7.0.0",
+          "runtime.osx-x64.runtime.native.System.IO.Ports": "7.0.0"
+        }
+      },
+      "runtime.osx-arm64.runtime.native.System.IO.Ports/7.0.0": {
+        "runtimeTargets": {
+          "runtimes/osx-arm64/native/libSystem.IO.Ports.Native.dylib": {
+            "rid": "osx-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "runtime.osx-x64.runtime.native.System.IO.Ports/7.0.0": {
+        "runtimeTargets": {
+          "runtimes/osx-x64/native/libSystem.IO.Ports.Native.dylib": {
+            "rid": "osx-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "System.Configuration.ConfigurationManager/4.5.0": {
+        "dependencies": {
+          "System.Security.Cryptography.ProtectedData": "4.5.0",
+          "System.Security.Permissions": "4.5.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Configuration.ConfigurationManager.dll": {
+            "assemblyVersion": "4.0.1.0",
+            "fileVersion": "4.6.26515.6"
+          }
+        }
+      },
+      "System.IO.Ports/7.0.0": {
+        "dependencies": {
+          "runtime.native.System.IO.Ports": "7.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/System.IO.Ports.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.51805"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/net6.0/System.IO.Ports.dll": {
+            "rid": "unix",
+            "assetType": "runtime",
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.51805"
+          },
+          "runtimes/win/lib/net6.0/System.IO.Ports.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.51805"
+          }
+        }
+      },
+      "System.Security.AccessControl/4.5.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "2.0.0",
+          "System.Security.Principal.Windows": "4.5.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Security.AccessControl.dll": {
+            "assemblyVersion": "4.1.1.0",
+            "fileVersion": "4.6.26515.6"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp2.0/System.Security.AccessControl.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.1.1.0",
+            "fileVersion": "4.6.26515.6"
+          }
+        }
+      },
+      "System.Security.Cryptography.ProtectedData/4.5.0": {
+        "runtime": {
+          "lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll": {
+            "assemblyVersion": "4.0.3.0",
+            "fileVersion": "4.6.26515.6"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.3.0",
+            "fileVersion": "4.6.26515.6"
+          }
+        }
+      },
+      "System.Security.Permissions/4.5.0": {
+        "dependencies": {
+          "System.Security.AccessControl": "4.5.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Security.Permissions.dll": {
+            "assemblyVersion": "4.0.1.0",
+            "fileVersion": "4.6.26515.6"
+          }
+        }
+      },
+      "System.Security.Principal.Windows/4.5.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "2.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Security.Principal.Windows.dll": {
+            "assemblyVersion": "4.1.1.0",
+            "fileVersion": "4.6.26515.6"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netcoreapp2.0/System.Security.Principal.Windows.dll": {
+            "rid": "unix",
+            "assetType": "runtime",
+            "assemblyVersion": "4.1.1.0",
+            "fileVersion": "4.6.26515.6"
+          },
+          "runtimes/win/lib/netcoreapp2.0/System.Security.Principal.Windows.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.1.1.0",
+            "fileVersion": "4.6.26515.6"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "log4net/2.0.15": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GahnO9ZgFka+xYcFwAfIFjW+k86P2nxFoaEpH6t3v4hiGj7tv2ksVZphxCVIHmJxoySS0HeU3dgCW+bSCcfD0A==",
+      "path": "log4net/2.0.15",
+      "hashPath": "log4net.2.0.15.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VdLJOCXhZaEMY7Hm2GKiULmn7IEPFE4XC5LPSfBVCUIA8YLZVh846gtfBJalsPQF2PlzdD7ecX7DZEulJ402ZQ==",
+      "path": "microsoft.netcore.platforms/2.0.0",
+      "hashPath": "microsoft.netcore.platforms.2.0.0.nupkg.sha512"
+    },
+    "NModbus/3.0.72": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OVlIA4G8y5/QZercCg1A6772n0TZ7ag7Pxlw4jJRNqfT5ur1f0qwrjhYKiWS8C67dKX+4S9SEe7WTE9CPwvLrw==",
+      "path": "nmodbus/3.0.72",
+      "hashPath": "nmodbus.3.0.72.nupkg.sha512"
+    },
+    "runtime.linux-arm.runtime.native.System.IO.Ports/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CBvgRaF+M0xGLDv2Geb/0v0LEADheH8aK72GRAUJdnqnJVsQO60ki1XO8M3keEhnjm+T5NvLm41pNXAVYAPiSg==",
+      "path": "runtime.linux-arm.runtime.native.system.io.ports/7.0.0",
+      "hashPath": "runtime.linux-arm.runtime.native.system.io.ports.7.0.0.nupkg.sha512"
+    },
+    "runtime.linux-arm64.runtime.native.System.IO.Ports/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5VCyRCtCIYU8FR/W8oo7ouFuJ8tmAg9ddsuXhfCKZfZrbaVZSKxkmNBa6fxkfYPueD0jQfOvwFBmE5c6zalCSw==",
+      "path": "runtime.linux-arm64.runtime.native.system.io.ports/7.0.0",
+      "hashPath": "runtime.linux-arm64.runtime.native.system.io.ports.7.0.0.nupkg.sha512"
+    },
+    "runtime.linux-x64.runtime.native.System.IO.Ports/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DV9dWDUs23OoZqMWl5IhLr3D+b9koDiSHQxFKdYgWnQbnthv8c/yDjrlrI8nMrDc71RAKCO8jlUojzuPMX04gg==",
+      "path": "runtime.linux-x64.runtime.native.system.io.ports/7.0.0",
+      "hashPath": "runtime.linux-x64.runtime.native.system.io.ports.7.0.0.nupkg.sha512"
+    },
+    "runtime.native.System.IO.Ports/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-L4Ivegqc3B0Fee7VifFy2JST9nndm+uvJ0viLIZUaImDfnr+JmRin9Tbqd56KuMtm0eVxHpNOWZBPtKrA/1h5Q==",
+      "path": "runtime.native.system.io.ports/7.0.0",
+      "hashPath": "runtime.native.system.io.ports.7.0.0.nupkg.sha512"
+    },
+    "runtime.osx-arm64.runtime.native.System.IO.Ports/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jFwh4sKSXZ7al5XrItEO4GdGWa6XNxvNx+LhEHjrSzOwawO1znwJ+Dy+VjnrkySX9Qi4bnHNLoiqOXbqMuka4g==",
+      "path": "runtime.osx-arm64.runtime.native.system.io.ports/7.0.0",
+      "hashPath": "runtime.osx-arm64.runtime.native.system.io.ports.7.0.0.nupkg.sha512"
+    },
+    "runtime.osx-x64.runtime.native.System.IO.Ports/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-X4LrHEfke/z9+z+iuVr35NlkhdZldY8JGNMYUN+sfPK/U/6TcE+vP44I0Yv0ir1v0bqIzq3v6Qdv1c1vmp8s4g==",
+      "path": "runtime.osx-x64.runtime.native.system.io.ports/7.0.0",
+      "hashPath": "runtime.osx-x64.runtime.native.system.io.ports.7.0.0.nupkg.sha512"
+    },
+    "System.Configuration.ConfigurationManager/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UIFvaFfuKhLr9u5tWMxmVoDPkFeD+Qv8gUuap4aZgVGYSYMdERck4OhLN/2gulAc0nYTEigWXSJNNWshrmxnng==",
+      "path": "system.configuration.configurationmanager/4.5.0",
+      "hashPath": "system.configuration.configurationmanager.4.5.0.nupkg.sha512"
+    },
+    "System.IO.Ports/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0nWQjM5IofaIGpvkifN+LLuYwBG6BHlpmphLhhOJepcW12G8qToGuNDRgBzeTVBZzp33wVsESSZ8hUOCfq+8QA==",
+      "path": "system.io.ports/7.0.0",
+      "hashPath": "system.io.ports.7.0.0.nupkg.sha512"
+    },
+    "System.Security.AccessControl/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vW8Eoq0TMyz5vAG/6ce483x/CP83fgm4SJe5P8Tb1tZaobcvPrbMEL7rhH1DRdrYbbb6F0vq3OlzmK0Pkwks5A==",
+      "path": "system.security.accesscontrol/4.5.0",
+      "hashPath": "system.security.accesscontrol.4.5.0.nupkg.sha512"
+    },
+    "System.Security.Cryptography.ProtectedData/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wLBKzFnDCxP12VL9ANydSYhk59fC4cvOr9ypYQLPnAj48NQIhqnjdD2yhP8yEKyBJEjERWS9DisKL7rX5eU25Q==",
+      "path": "system.security.cryptography.protecteddata/4.5.0",
+      "hashPath": "system.security.cryptography.protecteddata.4.5.0.nupkg.sha512"
+    },
+    "System.Security.Permissions/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9gdyuARhUR7H+p5CjyUB/zPk7/Xut3wUSP8NJQB6iZr8L3XUXTMdoLeVAg9N4rqF8oIpE7MpdqHdDHQ7XgJe0g==",
+      "path": "system.security.permissions/4.5.0",
+      "hashPath": "system.security.permissions.4.5.0.nupkg.sha512"
+    },
+    "System.Security.Principal.Windows/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-U77HfRXlZlOeIXd//Yoj6Jnk8AXlbeisf1oq1os+hxOGVnuG+lGSfGqTwTZBoORFF6j/0q7HXIl8cqwQ9aUGqQ==",
+      "path": "system.security.principal.windows/4.5.0",
+      "hashPath": "system.security.principal.windows.4.5.0.nupkg.sha512"
+    }
+  }
+}

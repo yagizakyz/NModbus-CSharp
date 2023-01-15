@@ -1,0 +1,24 @@
+{
+  "version": 2,
+  "dgSpecHash": "q35M/d1J+oPHyHwJ0Jw5OUJUOjG8gSOaL7RJvEng9sP5lmC1dKhDyvXMw6edEMuzt2fajLxg2eE2sNrDO9jtYg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\akyz6\\OneDrive\\Masaüstü\\Dosyalar\\Kodlamalar\\WPF\\PDKS\\NModbusExamples\\NModbusExamples.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\akyz6\\.nuget\\packages\\log4net\\2.0.15\\log4net.2.0.15.nupkg.sha512",
+    "C:\\Users\\akyz6\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
+    "C:\\Users\\akyz6\\.nuget\\packages\\nmodbus\\3.0.72\\nmodbus.3.0.72.nupkg.sha512",
+    "C:\\Users\\akyz6\\.nuget\\packages\\runtime.linux-arm.runtime.native.system.io.ports\\7.0.0\\runtime.linux-arm.runtime.native.system.io.ports.7.0.0.nupkg.sha512",
+    "C:\\Users\\akyz6\\.nuget\\packages\\runtime.linux-arm64.runtime.native.system.io.ports\\7.0.0\\runtime.linux-arm64.runtime.native.system.io.ports.7.0.0.nupkg.sha512",
+    "C:\\Users\\akyz6\\.nuget\\packages\\runtime.linux-x64.runtime.native.system.io.ports\\7.0.0\\runtime.linux-x64.runtime.native.system.io.ports.7.0.0.nupkg.sha512",
+    "C:\\Users\\akyz6\\.nuget\\packages\\runtime.native.system.io.ports\\7.0.0\\runtime.native.system.io.ports.7.0.0.nupkg.sha512",
+    "C:\\Users\\akyz6\\.nuget\\packages\\runtime.osx-arm64.runtime.native.system.io.ports\\7.0.0\\runtime.osx-arm64.runtime.native.system.io.ports.7.0.0.nupkg.sha512",
+    "C:\\Users\\akyz6\\.nuget\\packages\\runtime.osx-x64.runtime.native.system.io.ports\\7.0.0\\runtime.osx-x64.runtime.native.system.io.ports.7.0.0.nupkg.sha512",
+    "C:\\Users\\akyz6\\.nuget\\packages\\system.configuration.configurationmanager\\4.5.0\\system.configuration.configurationmanager.4.5.0.nupkg.sha512",
+    "C:\\Users\\akyz6\\.nuget\\packages\\system.io.ports\\7.0.0\\system.io.ports.7.0.0.nupkg.sha512",
+    "C:\\Users\\akyz6\\.nuget\\packages\\system.security.accesscontrol\\4.5.0\\system.security.accesscontrol.4.5.0.nupkg.sha512",
+    "C:\\Users\\akyz6\\.nuget\\packages\\system.security.cryptography.protecteddata\\4.5.0\\system.security.cryptography.protecteddata.4.5.0.nupkg.sha512",
+    "C:\\Users\\akyz6\\.nuget\\packages\\system.security.permissions\\4.5.0\\system.security.permissions.4.5.0.nupkg.sha512",
+    "C:\\Users\\akyz6\\.nuget\\packages\\system.security.principal.windows\\4.5.0\\system.security.principal.windows.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
